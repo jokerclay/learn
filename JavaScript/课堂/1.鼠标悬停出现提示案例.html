@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>鼠标悬停出现提示</title>
+    <style>
+        input {
+            width: 50px;
+            height: 50px;
+        }
+        
+        #box {
+            width: 200px;
+            height: 100px;
+            background-color: teal;
+            color: white;
+            text-align: center;
+            padding: 35px;
+            box-sizing: border-box;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- onmouseover/onmouseleave 是发生在元素 input 上的，所以要在 input 标签上写  -->
+    <!-- onmouseover / onmouseleave 事件所 赋值的是一个函数 不要忘记加 （） evens ="function()" -->
+    <input type="checkbox" onmouseover="showBox()" onmouseleave="hideBox()" />
+    <div id="box">
+        勾选表示同意
+    </div>
+    <script type="text/javascript">
+        // 函数 showBox(){
+        //	获取 box 元素的 style 中的 block 并 赋值 为 block
+        // }
+        function showBox() {
+            document.getElementById('box').style.display = "block"
+        }
+
+        function hideBox() {
+            document.getElementById('box').style.display = "none"
+        }
+    </script>
+</body>
+
+</html>
