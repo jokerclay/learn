@@ -7,4 +7,10 @@
 # heyyyy you !!! this is the code from the freatureOne branch, if youse me , it means that this featureOne branch has beeb merged to the branch you are current on !! hahahhahahahhaah~~~
 # It containes JavaScript and Bush
 
+<<<<<<< HEAD
 # this is on the featureOne branch
+=======
+# this is on the featureOne branch
+
+laaaaaaaaaaaa ~~~~ test git pull
+>>>>>>> 9257e9267327b1ba6f826b10b1a7b88336f9d127
