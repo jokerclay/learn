@@ -12,5 +12,4 @@
 =======
 # this is on the featureOne branch
 
-laaaaaaaaaaaa ~~~~ test git pull
->>>>>>> 9257e9267327b1ba6f826b10b1a7b88336f9d127
+ pull
